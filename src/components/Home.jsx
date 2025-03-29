@@ -32,7 +32,7 @@ export const Home = () => {
                             Hi there ,
                         </span><br />
 
-                        <span className='' ref={textRef}>
+                        <span className='specialdesign' ref={textRef}>
                         </span>
                         <span>
 
