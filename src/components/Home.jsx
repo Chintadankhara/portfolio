@@ -2,19 +2,22 @@ import React, { useEffect, useRef } from 'react'
 import img from '../assets/my.jpg'
 import Typed from 'typed.js'
 export const Home = () => {
-    const textRef = useRef();
+    const textRef = useRef(null);
 
     useEffect(() => {
-        const typed = new Typed(textRef.current, {
-            strings: ["Im MERN stack developer...", "Im FRONT-END developer...", "Im BACK-END developer..."],
+        if (textRef.current) {
+          const typed = new Typed(textRef.current, {
+            strings: ["I'm MERN stack developer...", "I'm FRONT-END developer...", "I'm BACK-END developer..."],
             typeSpeed: 100,
             backSpeed: 10,
             backDelay: 1000,
             loop: true
-        });
-        return () =>
-            typed.destroy()
-    }, [])
+          });
+    
+          return () => typed.destroy();
+        }
+      }, [textRef]);
+    
 
     return (
         <>
