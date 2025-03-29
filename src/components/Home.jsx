@@ -25,7 +25,10 @@ export const Home = () => {
                     </div>
 
                     <div className='col-md-8 text-center mt-4'>
-                        <span className='headtext'>   Hi there ,<br />
+                        <span className='headmain'>
+                        Hi there ,
+                        </span>
+                        <span className='headtext'> <br />
                             <span className='mt-3 typedtext' ref={textRef}></span></span>
 
                         <span>
