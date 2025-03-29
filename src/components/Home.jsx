@@ -32,7 +32,7 @@ export const Home = () => {
                             Hi there ,
                         </span><br />
 
-                        <span className='mt-3 typedtext headtext' ref={textRef}>
+                        <span className='' ref={textRef}>
                         </span>
                         <span>
 
