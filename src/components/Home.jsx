@@ -26,11 +26,11 @@ export const Home = () => {
 
                     <div className='col-md-8 text-center mt-4'>
                         <span className='headmain'>
-                        Hi there ,
-                        </span>
-                        <span className='headtext'> <br />
-                            <span className='mt-3 typedtext' ref={textRef}></span></span>
+                            Hi there ,
+                        </span><br />
 
+                        <span className='mt-3 typedtext headtext' ref={textRef}>
+                        </span>
                         <span>
 
                             <p className='mt-5 
