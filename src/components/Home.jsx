@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import img from '../assets/my.jpg'
 import Typed from 'typed.js'
-import { Navigation } from './Navigation'
 export const Home = () => {
     const textRef = useRef();
 
